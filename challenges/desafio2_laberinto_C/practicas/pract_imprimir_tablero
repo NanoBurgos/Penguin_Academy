@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+#define N 7
+#define M 5
+
+int main() {
+    int laberinto[N][M] = {
+        {1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1}
+    };
+
+    for(int i=0; i<M; i++) {
+        for(int j=0; j<N; j++) {
+            if(i==0 && j == 0) {
+                printf("E");
+            } else if (i==M-1 && j == N-1) {
+                printf("S");
+            } else {
+                printf("%d", laberinto[i][j]);
+            }
+        }
+        printf("\n");
+    }
+
+
+    return 0;
+}
