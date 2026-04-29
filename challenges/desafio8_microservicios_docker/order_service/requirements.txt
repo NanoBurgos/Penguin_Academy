@@ -1,0 +1,8 @@
+# Versiones fijas para builds reproducibles
+fastapi==0.115.5
+uvicorn==0.32.1
+pydantic==2.10.3
+requests==2.32.3
+tenacity==9.0.0
+# pybreaker: implementación del patrón Circuit Breaker para Python
+pybreaker==1.2.0

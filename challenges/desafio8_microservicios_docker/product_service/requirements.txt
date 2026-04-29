@@ -1,0 +1,7 @@
+# CORRECCIÓN 4: Versiones fijas para garantizar builds reproducibles.
+# Sin versiones fijas, pip instala la última versión disponible en cada build,
+# lo que puede generar comportamientos distintos entre ejecuciones.
+fastapi==0.115.5
+uvicorn==0.32.1
+sqlalchemy==2.0.36
+pydantic==2.10.3
